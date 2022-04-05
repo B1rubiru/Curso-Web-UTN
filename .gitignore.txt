@@ -1,1 +1,1 @@
-C:\Users\rytoa\.android
+.android/
