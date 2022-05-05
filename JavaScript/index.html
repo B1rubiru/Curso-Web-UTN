@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Test</title>
+</head>
+
+<body>
+    <script>
+        var distancia = 0
+        distancia = prompt('Ingrese la distancia a recorrer en metros:', '');
+        if (distancia <= 1000) {
+            document.write('La mejor opción es ir a pie.')
+        } else if (distancia > 100000) {
+            document.write('La mejor opción seria tomar un avion.')
+        } else if (distancia > 30000) {
+            document.write('La mejor opción es ir en auto.')
+        } else if (distancia > 10000) {
+            document.write('La mejor opción es tomarse un colectivo.')
+        } else if (distancia > 1000) {
+            document.write('La mejor opción es ir en bicicleta.')
+        }
+    </script>
+    <br>
+    <script>
+        var numeros = [1000, 10000, 30000, 100000]
+        var mayor = 0
+        for (var i = 0; i < numeros.length; i++) {
+            if (numeros[i] > mayor) {
+                mayor = numeros[i];
+            }
+        }
+
+        console.log ('La mayor distancia exacta comprendida entre ' + numeros + ' corresponde a: ' + mayor)
+    </script>
+
+</body>
+
+</html>
