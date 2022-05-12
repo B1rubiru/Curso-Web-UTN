@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+.Light {
+    background-color: wheat;
+}
+.Neutral {
+    background-color: grey;
+}
+.Dark {
+    background-color: darkslategrey;
+}
+.button {
+    background-color: #00cfad; 
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+}
+@keyframes glowing {
+0% {
+    background-color: #00cfad;
+    box-shadow: 0 0 5px #00ffff;
+}
+50% {
+    background-color: #00967d;
+    box-shadow: 0 0 20px #00967d;
+}
+100% {
+    background-color: #00cfad;
+    box-shadow: 0 0 5px #00ffff;
+}
+}
+.button:hover {
+    animation: glowing 1300ms infinite;
+}
