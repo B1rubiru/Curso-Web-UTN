@@ -70,6 +70,7 @@
     border-top-right-radius: 1.5%;
     border-width: 0.1cm;
     border-color: #00cfad;
+    outline: none;
 }
 
 #counter {
