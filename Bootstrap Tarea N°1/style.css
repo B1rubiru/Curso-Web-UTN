@@ -1,0 +1,36 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url(cta_background_03-compressor.jpg);
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-size: 100%;
+
+}
+
+h2 {
+    margin-left: 4%;
+    margin-top: 10%;
+    font-size: 4vw;
+    font-size: 4vmax;
+}
+
+.header2 {
+    margin-left: 6%;
+    font-size: 2rem;
+    font-size: 2vmax;
+    margin-bottom: 15%
+}
+
+.carousel-image {
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.carousel-caption {
+    background-color: rgb(105, 105, 105);
+    width: 25%;
+    margin: auto;
+    border-radius: 8px;
+}
