@@ -6,10 +6,13 @@ body {
     background-size: 100%;
 
 }
+.navbar{
+    height: 8%;
+}
 
 h2 {
     margin-left: 4%;
-    margin-top: 5cm;
+    margin-top: 13%;
     font-size: 4vw;
 }
 
@@ -27,8 +30,14 @@ h2 {
 }
 
 .carousel-caption {
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(33, 37, 41);
+
     width: 25%;
+    height: 22%;
     margin: auto;
     border-radius: 8px;
+    font-size: 1vw;
+}
+.carousel-text{
+    font-size: 1.3vw;
 }
