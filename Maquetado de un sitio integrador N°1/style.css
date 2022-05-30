@@ -1,43 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    --bs-navbar-toggler-font-size: 0.5rem;
+    --bs-navbar-padding-y: 0rem;
+}
 body {
     font-family: 'Kanit', sans-serif;
-    background-image: url(cta_background_03-compressor.jpg);
     background-repeat: no-repeat;
     background-color: grey;
     background-size: 100%;
-
 }
-.navbar{
-    height: 8%;
+#fondo{
+    
+    background-image: url(cta_background_03-compressor.jpg);
+    padding-bottom: 16%;
+    width: clamp(360px, 100%, 1920px);
 }
-
-h2 {
-    margin-left: 4%;
-    margin-top: 13%;
+#headerBox{
+    margin-left: 5vw;
+}
+#headerPrincipal {
     font-size: 4vw;
+    padding-top: 12%;
 }
-
-.header2 {
-    margin-left: 6%;
+.headerP {
     font-size: 2vw;
-    margin-bottom: 15%
 }
-
 .carousel-image {
     margin: auto;
     margin-bottom: 5%;
     margin-top: 2%;
     border-radius: 5px;
 }
-
 .carousel-caption {
     background-color: rgb(33, 37, 41);
-
-    width: 25%;
-    height: 22%;
-    margin: auto;
+    padding-top: 0.5%;
+    width: 23%;
+    height: 21%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 8px;
     font-size: 1vw;
 }
+.carousel-item{
+    margin-top: 0;
+    padding-top: 0;
+}
 .carousel-text{
     font-size: 1.3vw;
+}
+.carousel-indicators{
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
 }
