@@ -43,6 +43,9 @@ body {
     margin-right: auto;
     border-radius: 8px;
     font-size: 1vw;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding: 0.8%;
 }
 .carousel-item{
     margin-top: 0;
