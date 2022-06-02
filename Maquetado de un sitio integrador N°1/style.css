@@ -11,15 +11,16 @@ body {
     background-repeat: no-repeat;
     background-color: grey;
     background-size: 100%;
+    margin: auto;
 }
 #fondo{
-    
     background-image: url(cta_background_03-compressor.jpg);
+    background-size: cover;
     padding-bottom: 16%;
-    width: clamp(360px, 100%, 1920px);
 }
 #headerBox{
     margin-left: 5vw;
+    padding-top: 7vh;
 }
 #headerPrincipal {
     font-size: 4vw;
@@ -27,37 +28,18 @@ body {
 }
 .headerP {
     font-size: 2vw;
+    margin-left: 2%;
 }
-.carousel-image {
-    margin: auto;
-    margin-bottom: 5%;
-    margin-top: 2%;
-    border-radius: 5px;
+.d-block {
+    width: 100%;
 }
-.carousel-caption {
+.carousel-caption{
     background-color: rgb(33, 37, 41);
-    padding-top: 0.5%;
-    width: 23%;
-    height: 21%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    font-size: 1vw;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    padding: 0.8%;
+    padding: 1vh;
+    width: 30rem;
+    margin: auto;
+    border-radius: 0.5rem;
 }
-.carousel-item{
-    margin-top: 0;
-    padding-top: 0;
-}
-.carousel-text{
-    font-size: 1.3vw;
-}
-.carousel-indicators{
-    box-sizing: content-box;
-    flex: 0 1 auto;
-    width: 75px;
-    margin-left: auto;
-    margin-right: auto;
+.carousel-header{
+    font-size: 1rem;
 }
