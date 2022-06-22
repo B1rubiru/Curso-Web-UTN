@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    --bs-navbar-toggler-font-size: 0.5rem;
+    --bs-navbar-padding-y: 0rem;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-size: 100%;
+    margin: auto;
+}
+#fondo{
+    background: url(/images/cta_background.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 16%;
+}
+#headerBox{
+    margin-left: 5vw;
+    padding-top: 7vh;
+}
+#headerBox h1 {
+    font-size: 3.5rem;
+    padding-top: 12%;
+    color: #e1e1e3;
+}
+#headerBox p{
+    font-size: 1.5rem;
+    margin-left: 0.5vw;
+    color: #e1e1e3;
+}
+.d-block {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.carousel-caption{
+    color: #212529;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+.carousel-caption h5{
+    font-size: 2.4rem;
+}
+.carousel-caption p{
+    font-size: 1.2rem;
+}
+.carousel-inner{
+    background-color: #e0e2e4;
+    background-image: linear-gradient(#2b2b2b,#818181);
+}
+.card{
+    --bs-card-bg: #212529
+    
+}
+.card-text{
+    color: #e1e1e3;
+}
+#objetivos{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 6vh;
+    background-image: linear-gradient(#818181, #e1e1e3);  
+    font-size: 1rem;
+    margin: auto;
+}
+.header-quienes h2{
+    text-align: center;
+    margin: auto 3vw;
+    margin-bottom: 1vh;
+    align-content: center;
+    font-size: 25px;
+}
+.header-quienes p {
+    font-size: 16px;
+    margin-top: 3vh;
+    margin: auto;
+    max-width:270px;
+}
+.accordion{
+    width: 24vw;
+}
+.accordion h2{
+    margin-bottom: 1vh;
+}
+.accordion-item{
+    --bs-accordion-bg: #dfdfe1
+}
+.accordion-button{
+    color: #e1e1e3;
+    --bs-accordion-btn-bg: #212529
+}
+#quienesSomos{
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+#quienesSomos h2{
+    margin: 8vh auto;
+    padding: 1.5vh;
+    font-size: 52px;
+    color: #e1e1e3;
+    text-align: center;
+    background-color: #212529;
+    width: fit-content;
+    border-radius: 1rem;
+}
+#quienesSomos div{
+    display: flex;
+    margin: auto;
+}
+.card p{
+    text-align: center;
+}
+#formulario{
+    margin: 4vw 7vh;
+}
