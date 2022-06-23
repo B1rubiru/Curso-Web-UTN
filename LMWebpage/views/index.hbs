@@ -48,7 +48,26 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div> 
+<h2 id="objetivosheader">Comunicate con nosotros</h2>
 <div id="objetivos">
+    <form id="formulario" class="row g-3">
+        <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input name="email" type="email" class="form-control" id="inputEmail">
+        </div>
+        <div class="col-md-6">
+            <label for="inputNombre" class="form-label">Nombre y apellido</label>
+            <input name="nombre" type="text" class="form-control" id="inputNombreApellido">
+        </div>
+        <div class="col-12">
+            <label for="inputTel" class="form-label">Telefono</label>
+            <input name="tel" type="text" class="form-control" id="inputTelefono">
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+    {{message}}
     <div class="accordion" id="accordionExample">
         <h2>Objetivos</h2>
         <div class="accordion-item">
@@ -87,12 +106,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="header-quienes">
-        <h2>¿Quieres saber mas de nosotros?</h2>
-        <p id="somos">&nbsp;&nbsp; Somos un conjunto de ingenieros en sistemas, los cuales decidieron sumergirse en el mundo de la programación. Esto ultimo nos hizo plantearnos 
-            la posibilidad de estudiar sobre docencia de la misma. De ahi nacio esta institución, con el unico fin de ayudar a las personas que quieran recorrer el mismo camino que nosotros.
-        </p>
     </div>
 </div>
 <div id="quienesSomos">
