@@ -1,3 +1,4 @@
+require('dotenv').config();
 var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
@@ -16,14 +17,14 @@ router.post('/', async (req, res, next) => {
     var obj ={
         to: 'ivannegreirastagnitti@gmail.com',
         subject: 'Contacto de la Web',
-        html: nombre + "quiere mas información y le gustaria hablar con nosotros, este es su correo: " + email + "<br> Su telefono es: " + tel
+        html: nombre + " quiere mas información y le gustaria hablar con nosotros, este es su correo: " + email + "<br> Su telefono es: " + tel
     }
     var transporter = nodemailer.createTransport({
         host: process.env.SMTP_HOST,
         port: process.env.SMTP_PORT,
         auth: {
             user: process.env.SMTP_USER,
-            user: process.env.SMTP_PASS,
+            pass: process.env.SMTP_PASS,
         }
     });
 
@@ -33,6 +34,5 @@ router.post('/', async (req, res, next) => {
         message: 'Mensaje enviado correctamente.'
     });
 });
-
 
 module.exports = router;
