@@ -10,7 +10,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     background-repeat: no-repeat;
-    background-color: grey;
+    background-color: #d9d9ff;
     background-size: 100%;
     margin: auto;
 }
@@ -50,7 +50,7 @@ body {
 }
 .carousel-inner{
     background-color: #e0e2e4;
-    background-image: linear-gradient(#2b2b2b,#818181);
+    background-color: #d9d9ff;
 }
 .card{
     --bs-card-bg: #212529
@@ -69,7 +69,7 @@ body {
     justify-content: center;
     padding-top: 5%;
     padding-bottom: 6vh;
-    background-image: linear-gradient(#818181, #e1e1e3);
+    background-color:#d9d9ff;
 }
 .accordion{
     width: 24vw;
