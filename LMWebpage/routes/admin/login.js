@@ -19,7 +19,7 @@ router.post('/', async (req, res, next) => {
 
         if (data != undefined) {
             req.session.id_user = data.id;
-            req.session.id_user = data.user;
+            req.session.user = data.user;
             req.session.password = data.id_password;
             res.redirect('/admin/loged');
         } else {
