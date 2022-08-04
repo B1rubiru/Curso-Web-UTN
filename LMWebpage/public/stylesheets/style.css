@@ -61,7 +61,7 @@ body {
 }
 #objetivosheader{
     text-align: center;
-    margin-top: 23vh;
+    margin-top: 14vh;
     font-size: 4rem;
 }
 #objetivos{
@@ -79,11 +79,23 @@ body {
     margin-bottom: 1vh;
 }
 .accordion-item{
-    --bs-accordion-bg: #dfdfe1
+    --bs-accordion-bg: #d9d9ff
 }
 .accordion-button{
     color: #e1e1e3;
     --bs-accordion-btn-bg: #212529
+}
+.novedadesDiv{
+    justify-content: center;
+}
+.novedadesHeader{
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 3rem;
+}
+#accordionFlushExample{
+    margin: 10vh auto;
+    width: 60vw;
 }
 #formulario{
     width: 25vw;
@@ -110,4 +122,12 @@ body {
 }
 .card p{
     text-align: center;
+}
+.novedades{
+    width: 60vw;
+    margin: auto;
+}
+#novedades{
+    width: 60vw;
+    margin: auto; 
 }

@@ -47,7 +47,26 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
-</div> 
+</div>
+<div class="novedadesDiv">
+    <h2 class="novedadesHeader">Novedades</h2>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        {{#each novedades}}
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {{titulo}}
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">{{subtitulo}}<br><br>{{cuerpo}}</div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
 <h2 id="objetivosheader">Comunicate con nosotros</h2>
 <div id="objetivos">
     <form method="post" action="/" id="formulario" class="row g-3">
@@ -72,37 +91,48 @@
         <h2>Objetivos</h2>
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
                     Conocimientos generales
                 </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>Este objetivo, es la base de tu jornada.</strong> Se te van a proporcionar lecciones sobre los contenidos observables en la parte superior de la página, para lograr una buena fundación sobre desarrollo web.
+                    <strong>Este objetivo, es la base de tu jornada.</strong> Se te van a proporcionar lecciones sobre
+                    los contenidos observables en la parte superior de la página, para lograr una buena fundación sobre
+                    desarrollo web.
                 </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Node.js
                 </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    Esta herramienta nos permitara darle diversas funciones a nuestro sitio, ya que por si misma, la funcionalidad es bastante limitada. Por esto ultimo es que tu segundo objetivo es aprender sobre su utilización. 
+                    Esta herramienta nos permitara darle diversas funciones a nuestro sitio, ya que por si misma, la
+                    funcionalidad es bastante limitada. Por esto ultimo es que tu segundo objetivo es aprender sobre su
+                    utilización.
                 </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Diseñar y probar tu Web
                 </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>El punto principal de todo esto.</strong> La prueba de fuego. Ver si lograste aprender sobre los contenidos y demostrar dicho aprendizaje.
+                    <strong>El punto principal de todo esto.</strong> La prueba de fuego. Ver si lograste aprender sobre
+                    los contenidos y demostrar dicho aprendizaje.
                 </div>
             </div>
         </div>
@@ -126,7 +156,8 @@
         <div class="card" style="width: 18rem;">
             <img src="images/teacher_3.png" class="card-img-top" alt="Es esa gordon">
             <div class="card-body">
-                <p class="card-text">Gabriel Navas:<br>&nbsp;&nbsp;Nuestro especialista en JavaScript, encargado del curso de Node.js</p>
+                <p class="card-text">Gabriel Navas:<br>&nbsp;&nbsp;Nuestro especialista en JavaScript, encargado del
+                    curso de Node.js</p>
             </div>
         </div>
     </div>
