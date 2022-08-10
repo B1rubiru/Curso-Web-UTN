@@ -1,5 +1,6 @@
 <div class="container" style="margin: 100px auto;">   
     <form action="/admin/login" method="post">
+    <div>
         <div class="mb-3">
             <label for="exampleInput" class="form-label">Usuario</label>
             <input type="text" class="form-control" id="user" aria-describedby="userHelp" name="user">
@@ -10,6 +11,7 @@
             <input type="password" class="form-control" id="password" name="password">
         </div>
         <button type="submit" class="btn btn-primary">Login</button>
+    </div>
     </form>
     {{#if error}}
         <p>Usuario o contraseña incorrectos.</p>

@@ -12,7 +12,6 @@ body {
     background-repeat: no-repeat;
     background-color: #d9d9ff;
     background-size: 100%;
-    margin: auto;
 }
 #fondo{
     background: url(/images/cta_background.png) no-repeat;
@@ -130,4 +129,23 @@ body {
 #novedades{
     width: 60vw;
     margin: auto; 
+}
+.labelAgregar{
+    margin-top: 3vh;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.btnAgregar{
+    margin-top: 2vh;
+    margin-left: 13vw;
+}
+.editar{
+    margin-top: 10vh;
+}
+.editar div{
+    margin-top: 2vh;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
