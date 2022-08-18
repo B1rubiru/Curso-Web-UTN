@@ -7,10 +7,15 @@
     --bs-navbar-toggler-font-size: 0.5rem;
     --bs-navbar-padding-y: 0rem;
 }
+.login-button{
+    margin-inline-start: 75vw;
+    background-color: black;
+    color: whitesmoke;
+}
 body {
     font-family: 'Oswald', sans-serif;
     background-repeat: no-repeat;
-    background-color: #d9d9ff;
+    background-color: whitesmoke;
     background-size: 100%;
 }
 #fondo{
@@ -25,12 +30,12 @@ body {
 #headerBox h1 {
     font-size: 3.5rem;
     padding-top: 12%;
-    color: #e1e1e3;
+    color: whitesmoke;
 }
 #headerBox p{
     font-size: 1.5rem;
     margin-left: 0.5vw;
-    color: #e1e1e3;
+    color: whitesmoke;
 }
 .d-block {
     width: 100%;
@@ -48,8 +53,7 @@ body {
     font-size: 1.2rem;
 }
 .carousel-inner{
-    background-color: #e0e2e4;
-    background-color: #d9d9ff;
+    background-color: whitesmoke;
 }
 .card{
     --bs-card-bg: #212529
@@ -58,9 +62,13 @@ body {
 .card-text{
     color: #e1e1e3;
 }
+#divObjetivos{
+    margin-top: 1.77vh;
+}
 #objetivosheader{
     text-align: center;
     margin-top: 14vh;
+    margin-bottom: 4vh;
     font-size: 4rem;
 }
 #objetivos{
@@ -68,7 +76,7 @@ body {
     justify-content: center;
     padding-top: 5%;
     padding-bottom: 6vh;
-    background-color:#d9d9ff;
+    background-color: lightgrey;
 }
 .accordion{
     width: 24vw;
@@ -78,19 +86,33 @@ body {
     margin-bottom: 1vh;
 }
 .accordion-item{
-    --bs-accordion-bg: #d9d9ff
+    --bs-accordion-bg: whitesmoke
 }
 .accordion-button{
     color: #e1e1e3;
     --bs-accordion-btn-bg: #212529
 }
-.novedadesDiv{
-    justify-content: center;
-}
 .novedadesHeader{
-    margin-top: 15vh;
     text-align: center;
     font-size: 3rem;
+    margin-bottom: 13vh;
+    margin-top: 10vh;
+}
+#novedadesDiv{
+    justify-content: center;
+    display: flex;
+}
+.cardNovedad{
+    width: 25vw;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+.card-title{
+    margin-bottom: 2vh;
+    font-size: 1.5rem;
+}
+.card-text-novedad{
+    color: #212529;
 }
 #accordionFlushExample{
     margin: 10vh auto;

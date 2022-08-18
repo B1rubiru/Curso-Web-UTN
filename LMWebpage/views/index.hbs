@@ -48,25 +48,21 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-<div class="novedadesDiv">
+<div>
     <h2 class="novedadesHeader">Novedades</h2>
-    <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div id="novedadesDiv">
         {{#each novedades}}
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    {{titulo}}
-                </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">{{subtitulo}}<br><br>{{cuerpo}}</div>
+            <div class="cardNovedad" style="padding: 0px, margin: 0px;">
+                <div class="card-body">
+                    <h5 class="card-title">{{titulo}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{subtitulo}}</h6>
+                    <p class="card-text-novedad">{{cuerpo}}</p>
+                </div>
             </div>
-        </div>
         {{/each}}
     </div>
 </div>
+<div id="scrollPoint"></div>
 <h2 id="objetivosheader">Comunicate con nosotros</h2>
 <div id="objetivos">
     <form method="post" action="/" id="formulario" class="row g-3">
@@ -89,7 +85,7 @@
     {{message}}
     <div class="accordion" id="accordionExample">
         <h2>Objetivos</h2>
-        <div class="accordion-item">
+        <div class="accordion-item" id="divObjetivos">
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                     aria-expanded="true" aria-controls="collapseOne">
