@@ -102,18 +102,6 @@ body {
     justify-content: center;
     display: flex;
 }
-.cardNovedad{
-    width: 25vw;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-}
-.card-title{
-    margin-bottom: 2vh;
-    font-size: 1.5rem;
-}
-.card-text-novedad{
-    color: #212529;
-}
 #accordionFlushExample{
     margin: 10vh auto;
     width: 60vw;
@@ -131,7 +119,7 @@ body {
     margin: 8vh auto;
     padding: 1.5vh;
     font-size: 52px;
-    color: #e1e1e3;
+    color: whitesmoke;
     text-align: center;
     background-color: #212529;
     width: fit-content;
@@ -150,7 +138,22 @@ body {
 }
 #novedades{
     width: 60vw;
-    margin: auto; 
+    margin: auto;
+}
+#novedadesDiv{
+    background-color: #212529;
+}
+.cardNovedad{
+    width: 25vw;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding: 1.5vh;
+    color: whitesmoke;
+}
+.card-title{
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    font-size: 1.5rem;
 }
 .labelAgregar{
     margin-top: 3vh;

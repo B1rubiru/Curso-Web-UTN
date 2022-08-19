@@ -49,14 +49,14 @@
     </button>
 </div>
 <div>
-    <h2 class="novedadesHeader">Novedades</h2>
+    <h2 class="novedadesHeader">Novedades sobre la programación</h2>
     <div id="novedadesDiv">
         {{#each novedades}}
             <div class="cardNovedad" style="padding: 0px, margin: 0px;">
                 <div class="card-body">
                     <h5 class="card-title">{{titulo}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{{subtitulo}}</h6>
-                    <p class="card-text-novedad">{{cuerpo}}</p>
+                    <h6 style="text-transform: ;" class="card-subtitle mb-2">&nbsp;&nbsp;{{subtitulo}}</h6>
+                    <p class="card-text-novedad">&nbsp;&nbsp;{{cuerpo}}</p>
                 </div>
             </div>
         {{/each}}
